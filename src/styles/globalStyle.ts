@@ -4,7 +4,7 @@ const GlobalStyle = createGlobalStyle`
   :root {
     // Layout colors
     --marine-blue: hsl(213, 96%, 18%);
-    --purplish-blue: sl(243, 100%, 62%);
+    --purplish-blue: hsl(243, 100%, 62%);
     --pastel-blue: hsl(228, 100%, 84%);
     --light-blue: hsl(206, 94%, 87%);
     --strawberry-red: hsl(354, 84%, 57%);
@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     --white: hsl(0, 0%, 100%);
   }
 
-  * {
+  body, div, p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,6 +29,7 @@ const GlobalStyle = createGlobalStyle`
     justify-content: center;
     height: 100vh;
     
+    font-size: 1rem;
     font-family: Ubuntu, sans-serif;
 
     background-color: var(--magnolia);
