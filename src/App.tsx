@@ -1,8 +1,14 @@
-import { useState } from 'react'
+import { Fragment } from "react";
+import GlobalStyle from "./styles/globalStyle";
+import { Forms } from "./components/Forms/Forms";
+
 function App() {
     return (
-        <h2>Hello World</h2>
+        <Fragment>
+            <GlobalStyle />
+            <Forms />
+        </Fragment>
     )
 }
 
-export default App
+export default App;
