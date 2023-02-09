@@ -28,6 +28,8 @@ const GlobalStyle = createGlobalStyle`
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
+    font-family: Ubuntu, sans-serif;
 
     background-color: var(--magnolia);
   }
