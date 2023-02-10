@@ -1,13 +1,18 @@
 import { FormsContainer, PersonalInfoContainer, StepsContainer, } from "./styles";
+import { PersonalInfo } from "../PersonalInfo/PersonalInfo";
+import { Button } from "../Button/Button";
 
 export const Forms = () => {
     return (
         <FormsContainer>
             <StepsContainer>
-                <h1>Steps</h1>
+
             </StepsContainer>
             <PersonalInfoContainer>
-                <h1>Personal Info</h1>
+                <PersonalInfo />
+                <Button>
+                    Next Step
+                </Button>
             </PersonalInfoContainer>
         </FormsContainer>
     )

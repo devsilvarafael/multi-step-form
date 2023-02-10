@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledButton = styled.button`
-  min-width: 150px;
+  min-width: 125px;
   padding: 1rem;
 
   border: 0;

@@ -1,13 +1,11 @@
 import styled from "styled-components";
 export const FormsContainer = styled.main`
   display: flex;
-  align-items: center;
   
-  min-width: 1440px;
-  min-height: 70vh; 
-  border-radius: 10px;
-  
-  padding: 1.5rem;
+  min-width: 58.75rem;
+  min-height: 37.5rem;
+  border-radius: 0.62rem;
+  padding: 1rem;
   
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: var(--white);
@@ -17,15 +15,20 @@ export const StepsContainer = styled.aside`
   background: url("/images/backgrounds/bg-sidebar-desktop.svg") no-repeat center;
   background-size: cover;
   
-  border-radius: 10px;
+  border-radius: 0.62rem;
   padding: 2rem;
-  min-height: 700px;
+  min-height: 31.5rem;
   color: var(--white);
-  width: 350px;
+  min-width: 13.2rem;
+  margin-right: 6.25rem;
 `
 
 export const PersonalInfoContainer = styled.form`
-  max-width: 600px;
-  height: 100%;
-  margin-left: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  
+  max-width: 28.12rem;
+  margin-top: -2rem;
 `
